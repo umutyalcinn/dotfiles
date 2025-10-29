@@ -73,7 +73,7 @@ return {
 
             require('mason-lspconfig').setup({
                 ensure_installed = { 'clangd', 'cmake', 'tailwindcss', 'cssls', 'gopls', 'html', 
-                    'java_language_server', 'eslint', 'lua_ls', 'ltex', 'phpactor', 'pylsp',
+                    'eslint', 'lua_ls', 'ltex', 'phpactor', 'pylsp',
                     'rust_analyzer', 'sqlls', 'ts_ls', 'zls'
                 },
                 handlers = {
