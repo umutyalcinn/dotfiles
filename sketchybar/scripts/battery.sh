@@ -10,24 +10,24 @@ case "$PERCENTAGE" in ''|*[!0-9]*) exit 0;; esac
 
 case ${PERCENTAGE} in
 [8-9][0-9] | 100)
-    ICON="􀛨"
+    ICON=""
     ;;
 7[0-9])
-    ICON="􀺸"
+    ICON=""
     ;;
 [4-6][0-9])
-    ICON="􀺶"
+    ICON=""
     ;;
 [1-3][0-9])
-    ICON="􀛩"
+    ICON=""
     ;;
 [0-9])
-    ICON="􀛪"
+    ICON=""
     ;;
 esac
 
 if [ -n "$CHARGING" ]; then
-    ICON=""
+    ICON=""
     COLOR="0xFFeed49f"
 elif [ "$PERCENTAGE" -ge 30 ]; then
     COLOR="0xFF91d7e3"

@@ -1,0 +1,44 @@
+2026-10-19T07:29:47.464172Z  INFO herdr::server::headless::bootstrap: server using persistent user service context
+2026-10-19T07:29:47.464249Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=256 target=8192
+2026-10-19T07:29:47.464439Z  INFO herdr::api::server: api server listening path=/Users/umutyalcin/.config/herdr/herdr.sock
+2026-10-19T07:29:47.465672Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-10-19T07:29:47.469674Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=19092
+2026-10-19T07:29:47.469877Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-10-19T07:29:47.472882Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=19093
+2026-10-19T07:29:47.473028Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-10-19T07:29:47.473055Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-10-19T07:29:47.514347Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-19T07:29:47.515085Z  INFO herdr::server::headless::bootstrap: restored session already has workspaces; ignoring startup cwd cwd=/Users/umutyalcin
+2026-10-19T07:29:47.515202Z  INFO herdr::server::headless: client protocol socket listening path=/Users/umutyalcin/.config/herdr/herdr-client.sock
+2026-10-19T07:29:47.515226Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/Users/umutyalcin/.config/herdr/herdr.sock client_socket=/Users/umutyalcin/.config/herdr/herdr-client.sock
+2026-10-19T07:29:47.515318Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=19091
+2026-10-19T07:29:47.784901Z  INFO herdr::server::headless: client connected client_id=2 cols=153 rows=50 cell_width_px=16 cell_height_px=34 surface_active=true render_encoding=SemanticFrame
+2026-10-19T07:31:40.047597Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:server:reload-config" method="server.reload_config" changes_ui=true
+2026-10-19T07:31:40.054146Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:server:reload-config" method="server.reload_config"
+2026-10-19T07:31:43.717964Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-19T07:31:43.718119Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-19T07:31:44.425104Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-19T07:31:45.376987Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-19T07:31:45.377130Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-19T07:31:50.391243Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/umutyalcin/.config/herdr/session.json workspaces=1
+2026-10-19T07:33:05.893279Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Hangup: 1\") }"
+2026-10-19T07:33:05.915456Z  INFO herdr::pane: pane session terminated pane=2 pid=19093 signal=Hangup
+2026-10-19T07:33:05.917163Z  WARN herdr::app::actions: PaneDied for unknown pane pane=2
+2026-10-19T07:33:08.383583Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-10-19T07:33:08.385897Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup: 1\") }"
+2026-10-19T07:33:08.408406Z  INFO herdr::pane: pane session terminated pane=1 pid=19092 signal=Hangup
+2026-10-19T07:33:08.409315Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=50 cols=152 scrollback_limit_bytes=10000000
+2026-10-19T07:33:08.417412Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=26071
+2026-10-19T07:33:08.417929Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=3
+2026-10-19T07:33:08.417972Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-19T07:33:08.417992Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-19T07:33:08.419502Z  WARN herdr::app::actions: PaneDied for unknown pane pane=1
+2026-10-19T07:33:13.431849Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/umutyalcin/.config/herdr/session.json workspaces=1
+2026-10-19T07:34:08.713493Z  INFO herdr::pane: agent changed pane=3 previous_agent=None agent=Some(Claude) process=claude pgid=Some(27632)
+2026-10-19T07:34:54.288985Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/umutyalcin/.config/herdr/session.json workspaces=1
+2026-10-19T07:37:18.995582Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-19T07:37:24.010383Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/umutyalcin/.config/herdr/session.json workspaces=1
+2026-10-19T07:37:25.320357Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=50 cols=152 scrollback_limit_bytes=10000000
+2026-10-19T07:37:25.339862Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=32886
+2026-10-19T07:37:25.340406Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-10-19T07:37:30.354801Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/umutyalcin/.config/herdr/session.json workspaces=1
