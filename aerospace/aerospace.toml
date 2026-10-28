@@ -81,6 +81,21 @@ gaps.outer.left =       8
 gaps.outer.bottom =     8
 gaps.outer.right =      20
 
+# Pin workspaces to monitors so both screens get their own workspaces.
+# 1-5 on the main monitor, 6-9 on the secondary one (falls back to the main
+# monitor when only one is connected).
+# Monitor patterns: main | secondary | <regex on monitor name>
+[workspace-to-monitor-force-assignment]
+    1 = 'main'
+    2 = 'main'
+    3 = 'main'
+    4 = 'main'
+    5 = 'main'
+    6 = 'secondary'
+    7 = 'secondary'
+    8 = 'secondary'
+    9 = 'secondary'
+
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
 # 'main' binding mode must be always presented

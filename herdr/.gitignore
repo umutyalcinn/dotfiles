@@ -1,0 +1,4 @@
+session-snapshots/
+session.json
+*.log
+*.agent
